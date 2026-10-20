@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="es-PY">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Matheus Macedo | Medicina de Alto Rendimiento y Control de Peso en Paraguay</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Consulta médica online y atención personalizada a domicilio en Ciudad del Este. Medicina de alto rendimiento, control de peso y acompañamiento individual con el Dr. Matheus Macedo.">
+  <meta name="keywords"
+    content="médico en ciudad del este, adelgazamiento con médico a domicilio ciudad del este, medicina de alto rendimiento paraguay, botox ciudad del este, doctor a domicilio ciudad del este, consulta médica ciudad del este">
+  <meta name="author" content="Dr. Matheus Macedo">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PY">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:title" content="Dr. Matheus Macedo | Medicina de Alto Rendimiento y Control de Peso">
+  <meta property="og:description"
+    content="Acompañamiento médico individual en Paraguay. Consulta online y atención a domicilio en Ciudad del Este.">
+  <meta property="og:image" content="assets/dr_matheus_hero.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230B2239'/><text x='50%' y='62%' font-size='46' font-family='serif' fill='%23C7B39F' text-anchor='middle'>MM</text></svg>">
+
+  <!-- Google Consent Mode v2 (Padrão: Negado até o aceite) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    if (localStorage.getItem('dr_matheus_cookie_consent') === null) {
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+      });
+    } else {
+      const consentVal = localStorage.getItem('dr_matheus_cookie_consent');
+      gtag('consent', 'default', {
+        'ad_storage': consentVal,
+        'ad_user_data': consentVal,
+        'ad_personalization': consentVal,
+        'analytics_storage': consentVal
+      });
+    }
+  </script>
+
+  <!-- Schema.org Physician Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. Matheus Macedo",
+    "description": "Medicina de alto rendimiento y control de peso con acompañamiento individual en Paraguay.",
+    "telephone": "+595992135077",
+    "areaServed": [
+      { "@type": "City", "name": "Ciudad del Este" }
+    ],
+    "availableService": [
+      { "@type": "MedicalProcedure", "name": "Consulta Médica Online" },
+      { "@type": "MedicalProcedure", "name": "Atención Médica a Domicilio" },
+      { "@type": "MedicalProcedure", "name": "Aplicación Médica de Toxina Botulínica" }
+    ]
+  }
+  </script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       HEADER / BARRA SUPERIOR
+       ========================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Dr. Matheus Macedo">
+        <span class="brand-title">Dr. Matheus Macedo</span>
+        <span class="brand-subtitle" data-i18n="brand_sub">Medicina de Performance</span>
+      </a>
+
+      <!-- Menu Principal Desktop -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#modalidades" class="nav-link" data-i18n="nav_services">Modalidades</a>
+        <a href="#como-funciona" class="nav-link" data-i18n="nav_how">Cómo Funciona</a>
+        <a href="#procedimentos" class="nav-link" data-i18n="nav_procedures">Procedimientos</a>
+        <a href="#sobre" class="nav-link" data-i18n="nav_about">El Doctor</a>
+        <a href="#faq" class="nav-link" data-i18n="nav_faq">Preguntas</a>
+      </nav>
+
+      <!-- Ações: Seletor de Idioma & Botão Agendar -->
+      <div class="nav-actions">
+        <div class="lang-selector">
+          <button class="lang-btn active" id="btnLangEs" aria-label="Cambiar a Español">ES</button>
+          <button class="lang-btn" id="btnLangPt" aria-label="Mudar para Português">PT</button>
+        </div>
+
+        <a href="#triagem" class="btn btn-primary" data-i18n="btn_schedule">Agendar Consulta</a>
+
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Abrir Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION (BANNER INTEGRADO COM DR. MATHEUS MACÊDO E TEXTO SOBREPOSTO)
+         ========================================================================== -->
+    <section class="hero-section hero-banner-section" id="hero">
+      <!-- Imagem de Fundo em Alta Resolução com o Dr. Matheus Macêdo -->
+      <div class="hero-banner-backdrop">
+        <img src="assets/dr_matheus_banner.png" alt="Dr. Matheus Macêdo - Médico de Performance e Emagrecimento"
+          class="hero-banner-img" fetchpriority="high">
+        <div class="hero-banner-overlay"></div>
+      </div>
+
+      <div class="container hero-banner-container">
+        <div class="hero-content hero-banner-content">
+          <div class="hero-badge-country">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+            </svg>
+            <span data-i18n="hero_badge">Atención exclusiva en Paraguay</span>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero_title">
+            Medicina de alto rendimiento y control de peso, con <em>acompañamiento médico real</em>.
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="hero_subtitle">
+            Evaluación minuciosa, exámenes, protocolo individual y control mensual con el Dr. Matheus Macedo. Consulta
+            online o atención personalizada en su domicilio.
+          </p>
+
+          <div class="hero-cta-group">
+            <button onclick="selectServiceAndScroll('online')" class="btn btn-primary" data-i18n="hero_btn_online">
+              Agendar Consulta Online
+            </button>
+            <a id="heroWaBtn"
+              href="https://wa.me/595992135077?text=Hola,%20Dr.%20Matheus!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20atenci%C3%B3n%20m%C3%A9dica%20en%20Paraguay."
+              target="_blank" rel="noopener noreferrer" class="btn btn-light">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink: 0;">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.432.002 9.851-4.401 9.854-9.842.001-2.635-1.026-5.112-2.893-6.982C16.368 1.912 13.89 .882 11.258.882 5.823.882 1.406 5.299 1.402 10.74c-.001 1.542.413 3.05 1.2 4.398l-.998 3.645 3.734-.979zm11.237-7.652c-.3-.15-1.774-.875-2.049-.976-.275-.1-.475-.15-.675.15-.2.3-.775.976-.95 1.176-.175.2-.35.225-.65.075-.301-.15-1.267-.467-2.413-1.488-.892-.796-1.493-1.78-1.668-2.08-.175-.3-.018-.462.13-.61.135-.133.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.52-.172-.007-.368-.009-.567-.009-.2 0-.525.075-.8.375-.275.3-1.05 1.025-1.05 2.5s1.075 2.9 1.225 3.1c.15.2 2.11 3.224 5.112 4.521.714.309 1.272.494 1.707.633.718.228 1.37.196 1.885.119.574-.085 1.774-.725 2.024-1.425.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z" />
+              </svg>
+              <span data-i18n="hero_btn_home">Hablar por WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="hero-trust-line">
+            <div class="trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path
+                  d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z">
+                </path>
+              </svg>
+              <span data-i18n="trust_lang">Atención en Español y Portugués</span>
+            </div>
+            <div class="trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span data-i18n="trust_coverage">Atención a Domicilio en Ciudad del Este</span>
+            </div>
+            <div class="trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span data-i18n="trust_agenda">Agenda Abierta</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         MODALIDADES DE ATENDIMENTO & VALORES
+         ========================================================================== -->
+    <section class="section-padding" id="modalidades">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag" data-i18n="services_tag">Modalidades de Consulta</span>
+          <h2 class="section-title" data-i18n="services_title">Atención Médica a su Medida</h2>
+          <p class="section-desc" data-i18n="services_desc">
+            Sin consultorio fijo: la mejor atención médica en la comodidad de su hogar o por videollamada segura.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1: Consulta Online -->
+          <div class="service-card">
+            <div>
+              <span class="service-tag tag-online" data-i18n="srv_online_tag">Videollamada Google Meet</span>
+              <h3 class="service-title" data-i18n="srv_online_title">Consulta Online (Telemedicina)</h3>
+              <p class="service-desc" data-i18n="srv_online_desc">
+                Atención por videollamada para pacientes que se encuentran en Paraguay.
+              </p>
+
+              <ul class="service-features">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_online_f1">Anamnesis completa e historial clínico exhaustivo</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_online_f2">Solicitud de análisis de laboratorio completos</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_online_f3">Prescripción médica personalizada</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_online_f4">Enlace directo sin instalación de aplicaciones</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="service-price-block">
+                <span class="price-subtext" data-i18n="lbl_total_value">Valor Total:</span>
+                <div class="price-value">180.000 <span class="price-currency">Gs.</span></div>
+              </div>
+
+              <button onclick="selectServiceAndScroll('online')" class="btn btn-primary" style="width: 100%;"
+                data-i18n="btn_choose_online">
+                Elegir Consulta Online
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 2: Consulta a Domicílio -->
+          <div class="service-card">
+            <div>
+              <span class="service-tag tag-homecare" data-i18n="srv_home_tag">Home Care Exclusivo</span>
+              <h3 class="service-title" data-i18n="srv_home_title">Atención a Domicilio (Ciudad del Este)</h3>
+              <p class="service-desc" data-i18n="srv_home_desc">
+                El médico acude con todo el equipamiento necesario a su residencia en Ciudad del Este.
+              </p>
+
+              <ul class="service-features">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_home_f1">Evaluación física y seguimiento de la composición corporal</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_home_f2">Máxima privacidad, sin salas de espera ni traslados</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_home_f3">Prescripción médica y solicitud de analíticas en mano</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_home_f4">Posibilidad de procedimientos en la misma sesión</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="service-price-block">
+                <span class="price-subtext" data-i18n="lbl_total_home">Valor Total (Consulta + Traslado en CDE):</span>
+                <div class="price-value" id="homeCityPrice">260.000 <span class="price-currency">Gs.</span></div>
+              </div>
+
+              <button onclick="selectServiceAndScroll('homecare')"
+                class="btn btn-secondary" style="width: 100%;" data-i18n="btn_choose_home">
+                Elegir Atención a Domicilio
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3: Protocolo de Emagrecimento -->
+          <div class="service-card featured protocol-card">
+            <div>
+              <span class="service-tag tag-protocol" data-i18n="srv_proto_tag">Tratamiento Integral VIP</span>
+              <h3 class="service-title" data-i18n="srv_proto_title">Protocolo de Emagrecimento</h3>
+              <p class="service-desc" data-i18n="srv_proto_desc">
+                Acompañamiento médico continuo y personalizado para una transformación metabólica real y saludable.
+              </p>
+
+              <ul class="service-features">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_proto_f1">Acompañamiento médico continuo</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_proto_f2">Consultas mensuales de control</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_proto_f3">Perfil metabólico completo</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_proto_f4">Plan nutricional y dieta personalizada</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_proto_f5">Exámenes laboratoriales completos</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_proto_f6">Aplicación de tirzepatida o retatrutida</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_proto_f7">Aplicación de peptídeos</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span data-i18n="srv_proto_f8">Grupo exclusivo de acompañamiento WhatsApp con desafíos semanales</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="service-price-block">
+                <span class="price-subtext" data-i18n="lbl_total_proto">Valor del Procedimiento:</span>
+                <div class="price-value">720.000 <span class="price-currency">Gs.</span></div>
+              </div>
+
+              <button onclick="selectServiceAndScroll('protocol')"
+                class="btn btn-gold" style="width: 100%;" data-i18n="btn_choose_proto">
+                Elegir Protocolo de Emagrecimento
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Banner de Transparência sobre Medicamentos -->
+        <div class="med-disclaimer-box">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <div class="med-disclaimer-text">
+            <h4 data-i18n="med_disc_title">Transparencia Médica sobre Medicamentos:</h4>
+            <p data-i18n="med_disc_desc">
+              La consulta incluye evaluación clínica completa, solicitud de exámenes, plan alimentario y prescripción
+              médica individualizada. Los medicamentos de farmacia NO están incluidos y los adquiere el paciente en la
+              farmacia de su elección.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         COMO FUNCIONA (4 PASSOS)
+         ========================================================================== -->
+    <section class="section-padding" style="background-color: #E4EDF5;" id="como-funciona">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag" data-i18n="how_tag">Paso a Paso</span>
+          <h2 class="section-title" data-i18n="how_title">¿Cómo Funciona el Acompañamiento?</h2>
+          <p class="section-desc" data-i18n="how_desc">
+            Un proceso médico transparente y estructurado para alcanzar su mejor versión con salud y seguridad.
+          </p>
+        </div>
+
+        <div class="how-it-works-grid">
+          <div class="step-card">
+            <div class="step-num">01</div>
+            <h3 class="step-title" data-i18n="step1_title">Etapa 01 — Elija su atención</h3>
+            <p class="step-text" data-i18n="step1_desc">
+              Seleccione la modalidad ideal para sus necesidades y conozca las opciones disponibles.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-num">02</div>
+            <h3 class="step-title" data-i18n="step2_title">Etapa 02 — Complete sus datos de salud</h3>
+            <p class="step-text" data-i18n="step2_desc">
+              Complete la información necesaria para que el médico conozca mejor su historial y sus necesidades.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-num">03</div>
+            <h3 class="step-title" data-i18n="step3_title">Etapa 03 — Complete su registro</h3>
+            <p class="step-text" data-i18n="step3_desc">
+              Ingrese sus datos personales y de contacto para dar continuidad a la atención.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-num">04</div>
+            <h3 class="step-title" data-i18n="step4_title">Etapa 04 — Envíe y agende</h3>
+            <p class="step-text" data-i18n="step4_desc">
+              Envíe su triaje por WhatsApp y siga las indicaciones del equipo para coordinar su horario.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BOTOX / TOXINA BOTULÍNICA (CARROSSEL)
+         ========================================================================== -->
+    <section class="section-padding botox-section" id="botox">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag" data-i18n="botox_tag">Botox</span>
+          <h2 class="section-title" data-i18n="botox_title">Toxina Botulínica: expresión natural, sin perder su identidad</h2>
+          <p class="section-desc" data-i18n="botox_desc">
+            Tratamiento para suavizar líneas de expresión y prevenir el envejecimiento, con técnica personalizada para cada rostro.
+          </p>
+        </div>
+
+        <div class="botox-carousel-wrapper">
+          <!-- Botão Anterior (Desktop) -->
+          <button class="botox-nav-btn prev" id="botoxPrevBtn" aria-label="Anterior">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+
+          <!-- Carrossel de Cards -->
+          <div class="botox-carousel" id="botoxCarousel">
+            <!-- Card 1 -->
+            <div class="botox-card">
+              <div class="botox-card-img-wrapper">
+                <img src="assets/botox_forehead.jpg" alt="Testa e Linhas de Expressão" loading="lazy" class="botox-card-img">
+              </div>
+              <div class="botox-card-body">
+                <h3 class="botox-card-title" data-i18n="botox_c1_title">Testa e Linhas de Expressão</h3>
+                <p class="botox-card-desc" data-i18n="botox_c1_desc">Suaviza as linhas horizontais da testa mantendo a mobilidade natural do rosto.</p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="botox-card">
+              <div class="botox-card-img-wrapper">
+                <img src="assets/botox_glabella.jpg" alt="Glabela (Região entre as Sobrancelhas)" loading="lazy" class="botox-card-img">
+              </div>
+              <div class="botox-card-body">
+                <h3 class="botox-card-title" data-i18n="botox_c2_title">Glabela (Região entre as Sobrancelhas)</h3>
+                <p class="botox-card-desc" data-i18n="botox_c2_desc">Reduz o "vinco de bravo" e deixa o olhar mais leve e descansado.</p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="botox-card">
+              <div class="botox-card-img-wrapper">
+                <img src="assets/botox_crowsfeet.jpg" alt="Pés de Galinha" loading="lazy" class="botox-card-img">
+              </div>
+              <div class="botox-card-body">
+                <h3 class="botox-card-title" data-i18n="botox_c3_title">Pés de Galinha</h3>
+                <p class="botox-card-desc" data-i18n="botox_c3_desc">Suaviza as linhas ao redor dos olhos, principalmente ao sorrir.</p>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="botox-card">
+              <div class="botox-card-img-wrapper">
+                <img src="assets/botox_jawline.jpg" alt="Bruxismo e Contorno Facial" loading="lazy" class="botox-card-img">
+              </div>
+              <div class="botox-card-body">
+                <h3 class="botox-card-title" data-i18n="botox_c4_title">Bruxismo e Contorno Facial</h3>
+                <p class="botox-card-desc" data-i18n="botox_c4_desc">Alivia a tensão da mandíbula e pode afinar o contorno do rosto.</p>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="botox-card">
+              <div class="botox-card-img-wrapper">
+                <img src="assets/botox_hyperhidrosis.jpg" alt="Hiperidrose" loading="lazy" class="botox-card-img">
+              </div>
+              <div class="botox-card-body">
+                <h3 class="botox-card-title" data-i18n="botox_c5_title">Hiperidrose</h3>
+                <p class="botox-card-desc" data-i18n="botox_c5_desc">Controle do suor excessivo nas axilas, mãos e pés.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Botão Próximo (Desktop) -->
+          <button class="botox-nav-btn next" id="botoxNextBtn" aria-label="Próximo">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Indicadores de Bolinhas (Dots) -->
+        <div class="botox-dots" id="botoxDots" aria-hidden="true">
+          <span class="botox-dot active" data-index="0"></span>
+          <span class="botox-dot" data-index="1"></span>
+          <span class="botox-dot" data-index="2"></span>
+          <span class="botox-dot" data-index="3"></span>
+          <span class="botox-dot" data-index="4"></span>
+        </div>
+
+        <!-- Rodapé da Seção Botox -->
+        <div class="botox-footer text-center">
+          <a href="https://wa.me/595992135077?text=Hola,%20Dr.%20Matheus!%20Quisiera%20agendar%20una%20consulta%20de%20evaluaci%C3%B3n%20para%20Toxina%20Botul%C3%ADnica."
+            target="_blank" rel="noopener noreferrer" class="btn btn-primary botox-cta-btn" id="botoxCtaBtn">
+            <span data-i18n="botox_btn">Agendar evaluación</span>
+          </a>
+          <p class="botox-disclaimer" data-i18n="botox_disclaimer">
+            Los resultados varían de persona a persona. Procedimiento realizado únicamente tras evaluación médica.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROCEDIMENTOS MÉDICOS
+         ========================================================================== -->
+    <section class="section-padding" id="procedimentos">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag" data-i18n="proc_tag">Tratamientos Clínicos</span>
+          <h2 class="section-title" data-i18n="proc_title">Procedimientos Médicos</h2>
+          <p class="section-desc" data-i18n="proc_desc">
+            Realizados exclusivamente tras evaluación médica rigurosa para garantizar seguridad y armonía.
+          </p>
+        </div>
+
+        <div class="proc-grid">
+          <div class="proc-card">
+            <div class="proc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m18 2 4 4"></path>
+                <path d="m17 7 3-3"></path>
+                <path d="M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5"></path>
+                <path d="m9 11 4 4"></path>
+                <path d="m5 19-3 3"></path>
+                <path d="m14 4 6 6"></path>
+              </svg>
+            </div>
+            <h3 class="proc-title" data-i18n="proc1_title">Reposición e Inyectables de Vitaminas</h3>
+            <p class="proc-desc" data-i18n="proc1_desc">
+              Aplicación médica individualizada de micronutrientes (como Vitamina B12, hierro y otros compuestos) para optimización de la salud, energía y corrección de carencias nutricionales.
+            </p>
+            <span class="proc-badge" data-i18n="proc1_badge">Bajo evaluación clínica</span>
+          </div>
+
+          <div class="proc-card">
+            <div class="proc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                </path>
+              </svg>
+            </div>
+            <h3 class="proc-title" data-i18n="proc2_title">Sueroterapia Específica</h3>
+            <p class="proc-desc" data-i18n="proc2_desc">
+              Reposición intravenosa de vitaminas, minerales y micronutrientes según carencias identificadas en
+              laboratorio.
+            </p>
+            <span class="proc-badge" data-i18n="proc2_badge">Indicación médica previa</span>
+          </div>
+
+          <div class="proc-card">
+            <div class="proc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <h3 class="proc-title" data-i18n="proc3_title">Modulación Hormonal</h3>
+            <p class="proc-desc" data-i18n="proc3_desc">
+              Indicada únicamente ante desbalances clínicos confirmados por analíticas, con monitoreo estricto.
+            </p>
+            <span class="proc-badge" data-i18n="proc3_badge">Protocolo individual</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT DOCTOR (QUEM CUIDA DE VOCÊ)
+         ========================================================================== -->
+    <section class="section-padding about-section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-image-card">
+            <img src="assets/dr_matheus_clinical.jpg" alt="Dr. Matheus Macedo - Medicina e Performance Humana"
+              width="600" height="750" loading="lazy">
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag light" data-i18n="about_tag">Quién Cuida de Usted</span>
+          <h2 class="section-title light" data-i18n="about_title">Dr. Matheus Macedo</h2>
+
+          <blockquote class="about-quote" data-i18n="about_quote">
+            "Me dedico a guiar a cada paciente hacia su mejor versión, uniendo rigor científico, salud y alto
+            rendimiento."
+          </blockquote>
+
+          <p class="about-text" data-i18n="about_text">
+            Médico enfocado en longevidad saludable, regulación metabólica y optimización del rendimiento físico y
+            mental. Su metodología prioriza decisiones fundamentadas en exámenes, con un trato cercano y adaptado a la
+            rutina del paciente.
+          </p>
+
+          <div class="about-creds">
+            <div class="cred-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+              </svg>
+              <span data-i18n="about_c1">Atención médica en Paraguay (exclusiva)</span>
+            </div>
+            <div class="cred-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+              </svg>
+              <span data-i18n="about_c2">Enfoque preventivo y medicina de precisión</span>
+            </div>
+            <div class="cred-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+              </svg>
+              <span data-i18n="about_c3">Protocolos individuales sin recetas genéricas</span>
+            </div>
+          </div>
+
+          <div class="about-cta-group">
+            <a href="#triagem" class="btn btn-gold" data-i18n="btn_schedule">Agendar Consulta</a>
+            <a href="https://www.instagram.com/dr.matheusmacedo_/" target="_blank" rel="noopener noreferrer" class="btn btn-instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span data-i18n="btn_instagram">Me acompanhe no Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TRIAGEM EM FUNIL (MODELO GDSDESIGN / ROTACDE)
+         ========================================================================== -->
+    <section class="section-padding funnel-section" id="triagem">
+      <div class="container funnel-container">
+        <!-- Coluna Esquerda: Texto Explicativo e Benefícios -->
+        <div class="funnel-side-info">
+          <span class="section-tag" data-i18n="funnel_tag">Triaje & Agendamiento</span>
+          <h2 class="funnel-side-title" data-i18n="funnel_title">Agende su consulta en 1 minuto</h2>
+          <p class="funnel-side-desc" data-i18n="funnel_desc">
+            Complete este breve cuestionario para que el Dr. Matheus y su equipo conozcan su caso antes de la atención.
+            Sus datos se envían directamente por WhatsApp bajo estricta confidencialidad médica.
+          </p>
+
+          <ul class="funnel-benefits-list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span data-i18n="funnel_b1">Sin registros ni contraseñas</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span data-i18n="funnel_b2">Cálculo de tarifa inmediata con traslado</span>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span data-i18n="funnel_b3">Mensaje listo para enviar en un toque</span>
+            </li>
+          </ul>
+
+          <div class="funnel-privacy-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+            </svg>
+            <span data-i18n="funnel_privacy_text">
+              Datos confidenciales amparados por la Ley 7593/2025 de Paraguay y el secreto profesional médico.
+            </span>
+          </div>
+        </div>
+
+        <!-- Coluna Direita: O Cartão Interativo em Passos -->
+        <div class="funnel-card">
+          <!-- Indicador de Etapas -->
+          <div class="steps-indicator">
+            <div class="steps-track-bg"></div>
+            <div class="steps-track-progress" id="funnelProgressBar"></div>
+            <div class="step-node active" id="stepNode1">1</div>
+            <div class="step-node" id="stepNode2">2</div>
+            <div class="step-node" id="stepNode3">3</div>
+          </div>
+
+          <!-- PASSO 1: MODALIDADE -->
+          <div class="step-pane active" id="funnelPane1">
+            <div class="step-pane-header">
+              <h3 class="pane-title" data-i18n="pane1_title">1. Elija la modalidad de atención</h3>
+              <p class="pane-desc" data-i18n="pane1_desc">¿Cómo prefiere realizar su consulta?</p>
+            </div>
+
+            <div class="alert-box alert-info">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span data-i18n="pane1_alert">Atención exclusiva para pacientes que se encuentran en Paraguay. En caso de
+                urgencia, llame al 911.</span>
+            </div>
+
+            <div class="options-grid single-col">
+              <div class="option-box selected" id="optModOnline">
+                <div class="option-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                  </svg>
+                </div>
+                <div class="option-text-wrapper">
+                  <div class="option-label" data-i18n="opt_online_lbl">Consulta Online</div>
+                  <div class="option-sub" data-i18n="opt_online_sub">Videollamada por Google Meet</div>
+                </div>
+                <div class="option-price-tag">180.000 Gs.</div>
+              </div>
+
+              <div class="option-box" id="optModHome">
+                <div class="option-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                  </svg>
+                </div>
+                <div class="option-text-wrapper">
+                  <div class="option-label" data-i18n="opt_home_lbl">Atención a Domicilio</div>
+                  <div class="option-sub" data-i18n="opt_home_sub">En su residencia en Ciudad del Este</div>
+                </div>
+                <div class="option-price-tag" data-i18n="opt_home_price">260.000 Gs.</div>
+              </div>
+
+              <div class="option-box" id="optModProtocol">
+                <div class="option-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                  </svg>
+                </div>
+                <div class="option-text-wrapper">
+                  <div class="option-label" data-i18n="opt_proto_lbl">Protocolo de Emagrecimento</div>
+                  <div class="option-sub" data-i18n="opt_proto_sub">Tratamiento médico integral con medicación y acompañamiento</div>
+                </div>
+                <div class="option-price-tag" data-i18n="opt_proto_price">720.000 Gs.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PASSO 2: DADOS DE SAÚDE & IDADE -->
+          <div class="step-pane" id="funnelPane2">
+            <div class="step-pane-header">
+              <h3 class="pane-title" data-i18n="pane2_title">2. Datos de salud e información básica</h3>
+              <p class="pane-desc" data-i18n="pane2_desc">Esta información ayuda al médico a preparar su protocolo:</p>
+            </div>
+
+            <!-- Alerta Idade Mínima 18 Anos -->
+            <div class="alert-box alert-warning" id="underAgeAlert" style="display: none;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
+                </path>
+                <line x1="12" y1="9" x2="12" y2="13"></line>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+              </svg>
+              <div data-i18n="underage_alert">
+                <strong>Atención:</strong> La atención a menores de 18 años requiere autorización expresa y presencia
+                del responsable legal. Por favor, contáctenos directamente vía WhatsApp para coordinar.
+              </div>
+            </div>
+
+            <!-- Alerta Emergência / Sintomas Graves -->
+            <div class="alert-box alert-danger" id="severeSymptomsAlert" style="display: none;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+              <div data-i18n="severe_alert">
+                <strong>Aviso de Emergencia:</strong> Si presenta dolor en el pecho, dificultad respiratoria súbita o
+                síntomas severos, acuda de inmediato a un hospital o comuníquese al 911. Este servicio es exclusivamente
+                para consultas electivas y preventivas.
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="inputAge" data-i18n="lbl_age">Edad (años)*</label>
+                <input type="number" id="inputAge" data-i18n-ph="ph_age" class="form-control" placeholder="Ej: 32"
+                  min="1" max="110" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="inputWeight" data-i18n="lbl_weight">Peso estimado (kg)*</label>
+                <input type="number" id="inputWeight" data-i18n-ph="ph_weight" class="form-control" placeholder="Ej: 78"
+                  min="20" max="300" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="inputHeight" data-i18n="lbl_height">Altura (cm)*</label>
+                <input type="number" id="inputHeight" data-i18n-ph="ph_height" class="form-control"
+                  placeholder="Ej: 175" min="50" max="250" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inputConditions" data-i18n="lbl_conditions">¿Tiene alguna enfermedad o
+                condición diagnosticada?</label>
+              <input type="text" id="inputConditions" data-i18n-ph="ph_conditions" class="form-control"
+                placeholder="Ej: Hipertensión, tiroides... (o 'Ninguna')">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inputMeds" data-i18n="lbl_meds">Medicamentos que utiliza
+                actualmente:</label>
+              <input type="text" id="inputMeds" data-i18n-ph="ph_meds" class="form-control"
+                placeholder="Ej: Nombres de medicamentos o suplementos">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inputAllergies" data-i18n="lbl_allergies">Alergias conocidas:</label>
+              <input type="text" id="inputAllergies" data-i18n-ph="ph_allergies" class="form-control"
+                placeholder="Ej: Penicilina, látex, etc.">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="selectPregnancy" data-i18n="lbl_preg">¿Embarazo o lactancia
+                materna?*</label>
+              <select id="selectPregnancy" class="form-control">
+                <option value="no" selected data-i18n="opt_preg_no">No / No aplica</option>
+                <option value="yes" data-i18n="opt_preg_yes">Sí</option>
+              </select>
+            </div>
+
+            <label class="checkbox-container">
+              <input type="checkbox" id="chkSevereSymptoms">
+              <span class="checkbox-label" data-i18n="chk_severe" style="color: #C62828; font-weight: 600;">
+                Tengo síntomas agudos o severos en este momento (dolor en el pecho, falta de aire súbita).
+              </span>
+            </label>
+          </div>
+
+          <!-- PASSO 3: CONTATO & CONSENTIMENTO -->
+          <div class="step-pane" id="funnelPane3">
+            <div class="step-pane-header">
+              <h3 class="pane-title" data-i18n="pane3_title">3. Datos de contacto y confirmación</h3>
+              <p class="pane-desc" data-i18n="pane3_desc">Último paso para generar su solicitud de agendamiento:</p>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="inputPatientName" data-i18n="lbl_name">Su Nombre Completo*</label>
+              <input type="text" id="inputPatientName" data-i18n-ph="ph_name" class="form-control"
+                placeholder="Ingrese su nombre y apellido" required>
+            </div>
+
+            <div class="form-group" id="addressFormGroup">
+              <label class="form-label" for="inputPatientAddress" data-i18n="lbl_address">Dirección en Ciudad del Este
+                (para domicilio)*</label>
+              <input type="text" id="inputPatientAddress" data-i18n-ph="ph_address" class="form-control"
+                placeholder="Ej: Barrio Boquerón, Edificio o calle de referencia en Ciudad del Este...">
+            </div>
+
+            <div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid rgba(148, 183, 204, 0.25);">
+              <label class="checkbox-container">
+                <input type="checkbox" id="chkHealthConsent" required>
+                <span class="checkbox-label" data-i18n="chk_consent">
+                  Autorizo el tratamiento de mis datos de salud con el único fin de mi atención médica y triaje clínico,
+                  conforme a la <a href="#" class="open-privacy-modal"
+                    style="text-decoration: underline; color: var(--color-secondary);">política de privacidad</a>.*
+                </span>
+              </label>
+
+              <label class="checkbox-container">
+                <input type="checkbox" id="chkMarketingConsent">
+                <span class="checkbox-label" data-i18n="chk_marketing">
+                  Deseo recibir recordatorios e información de salud vía WhatsApp (opcional).
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <!-- TELA DE CONCLUSÃO / SUCESSO -->
+          <div class="step-pane funnel-success-pane" id="funnelSuccessPane">
+            <div class="success-icon-badge">✓</div>
+            <h3 class="success-title" data-i18n="success_title">¡Información Lista para Enviar!</h3>
+            <p class="success-desc" data-i18n="success_desc">
+              Su triaje ha sido estructurado. Toque el botón a continuación para abrir WhatsApp y enviar sus datos al
+              Dr. Matheus y su asistente para coordinar su consulta.
+            </p>
+
+            <div class="success-buttons">
+              <button class="btn btn-whatsapp" id="btnSendWhatsappFunnel" style="font-size: 1.05rem; padding: 16px; width: 100%; max-width: 380px; margin: 0 auto;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.432.002 9.851-4.401 9.854-9.842.001-2.635-1.026-5.112-2.893-6.982C16.368 1.912 13.89 .882 11.258.882 5.823.882 1.406 5.299 1.402 10.74c-.001 1.542.413 3.05 1.2 4.398l-.998 3.645 3.734-.979zm11.237-7.652c-.3-.15-1.774-.875-2.049-.976-.275-.1-.475-.15-.675.15-.2.3-.775.976-.95 1.176-.175.2-.35.225-.65.075-.301-.15-1.267-.467-2.413-1.488-.892-.796-1.493-1.78-1.668-2.08-.175-.3-.018-.462.13-.61.135-.133.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.52-.172-.007-.368-.009-.567-.009-.2 0-.525.075-.8.375-.275.3-1.05 1.025-1.05 2.5s1.075 2.9 1.225 3.1c.15.2 2.11 3.224 5.112 4.521.714.309 1.272.494 1.707.633.718.228 1.37.196 1.885.119.574-.085 1.774-.725 2.024-1.425.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z" />
+                </svg>
+                <span data-i18n="btn_finish_wpp">Enviar Triaje por WhatsApp</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Controles de Navegação -->
+          <div class="funnel-nav">
+            <button class="btn btn-secondary" id="btnFunnelPrev" style="visibility: hidden;">
+              ← <span data-i18n="btn_prev">Volver</span>
+            </button>
+            <button class="btn btn-primary" id="btnFunnelNext">
+              <span data-i18n="btn_next">Siguiente</span> →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAQ (PERGUNTAS FREQUENTES)
+         ========================================================================== -->
+    <section class="section-padding" style="background-color: var(--bg-card-subtle);" id="faq">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tag" data-i18n="faq_tag">Dudas Frecuentes</span>
+          <h2 class="section-title" data-i18n="faq_title">Preguntas Frecuentes</h2>
+          <p class="section-desc" data-i18n="faq_desc">
+            Respuestas claras a las dudas más habituales de nuestros pacientes.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span data-i18n="faq1_q">¿El Dr. Matheus atiende online y presencial?</span>
+              <svg class="faq-icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq1_a">Sí. La consulta online se realiza por videollamada segura vía Google Meet para
+                pacientes que se encuentran en Paraguay. La consulta presencial es exclusivamente a domicilio en Ciudad
+                del Este.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span data-i18n="faq2_q">¿Los medicamentos están incluidos en el valor de la consulta?</span>
+              <svg class="faq-icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq2_a"><strong>No.</strong> La consulta incluye la evaluación médica minuciosa, solicitud e
+                interpretación de analíticas laboratoriales, planificación dietética y la prescripción individualizada.
+                Si el médico indica alguna medicación o suplemento, estos son adquiridos directamente por el paciente en
+                la farmacia de su preferencia.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span data-i18n="faq3_q">¿Qué debo preparar para la consulta a domicilio?</span>
+              <svg class="faq-icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq3_a">Simplemente un ambiente iluminado, tranquilo y con privacidad en su residencia. El
+                médico lleva el equipo clínico necesario. Tenga a mano sus últimos exámenes de sangre si dispone de
+                ellos.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span data-i18n="faq4_q">¿Cómo se realiza el pago de la consulta y procedimientos?</span>
+              <svg class="faq-icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq4_a">Aceptamos pagos en Guaraníes (Gs.), Reales (R$) y Dólares (USD) mediante transferencia bancaria, Tigo
+                Money, efectivo y tarjetas. La tarifa mostrada en el triaje ya incluye la consulta y el traslado en Ciudad del Este.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span data-i18n="faq5_q">¿Quién lee mis datos de salud enviados en el formulario?</span>
+              <svg class="faq-icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq5_a">Sus datos no se guardan en el sitio web ni en servidores externos. La información
+                estructurada se envía exclusivamente a la cuenta oficial de WhatsApp del consultorio, donde es recibida
+                por el Dr. Matheus Macedo y su asistente de atención, ambos bajo estricto deber de confidencialidad y
+                secreto médico profesional (amparados por la Ley 7593/2025 de Paraguay).</p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span data-i18n="faq6_q">¿Cómo funciona el acompañamiento y retorno mensual?</span>
+              <svg class="faq-icon-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq6_a">Cada 30 días se programa una nueva consulta de seguimiento para medir la evolución
+                física, revisar nuevos parámetros de laboratorio y realizar los ajustes necesarios en el protocolo
+                nutricional y terapéutico.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       RODAPÉ
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Dr. Matheus Macedo</h3>
+          <p data-i18n="foot_tag">Atención médica personalizada en Paraguay.</p>
+          <div style="font-size: 0.88rem; color: rgba(248, 247, 243, 0.8);">
+            <strong>WhatsApp:</strong> <a href="https://wa.me/595992135077" target="_blank"
+              style="color: var(--color-champagne);">+595 992 135 077</a><br>
+            <strong>Instagram:</strong> <a href="https://instagram.com/dr.matheusmacedo_" target="_blank"
+              style="color: var(--color-champagne);">@dr.matheusmacedo_</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="foot_cov_title">Atención Médica</h4>
+          <ul class="footer-links">
+            <li><span data-i18n="foot_cde">Atención a Domicilio en Ciudad del Este</span></li>
+            <li><span data-i18n="foot_tele">Consulta Online en todo Paraguay</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="foot_inst_title">Institucional</h4>
+          <ul class="footer-links">
+            <li><a href="#modalidades" data-i18n="foot_l1">Modalidades de Consulta</a></li>
+            <li><a href="#como-funciona" data-i18n="foot_l2">Metodología</a></li>
+            <li><a href="#triagem" data-i18n="foot_l3">Triaje y Agendamiento</a></li>
+            <li><a href="#" class="open-privacy-modal" data-i18n="foot_l4">Política de Privacidad y Datos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-legal-notice" data-i18n="foot_disclaimer">
+        Aviso Ético Legal: Las informaciones de este sitio web tienen carácter informativo y educativo, no sustituyendo
+        el acto médico. En caso de emergencia o síntomas agudos, llame al 911 o acuda de inmediato a un centro
+        hospitalario. Dr. Matheus Macedo © 2026. Todos los derechos reservados.
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="foot_reg">Dr. Matheus Macedo | Registro Profesional Ministerio de Salud Pública y Bienestar
+          Social (MSPBS)</div>
+        <div data-i18n="foot_dev">Desarrollado con alto estándar estético y funcional</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       BARRA INFERIOR MOBILE FIXA (AGENDAR + WHATSAPP)
+       ========================================================================== -->
+  <aside class="mobile-bottom-bar" aria-label="Ações Rápidas">
+    <div class="mobile-bar-buttons">
+      <a href="#triagem" class="btn btn-primary mobile-bar-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+        </svg>
+        <span data-i18n="btn_schedule_mob">Agendar</span>
+      </a>
+
+      <a id="mobileWaLink"
+        href="https://wa.me/595992135077?text=Hola,%20Dr.%20Matheus!%20Quisiera%20informaci%C3%B3n%20sobre%20las%20consultas%20m%C3%A9dicas."
+        target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp mobile-bar-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.432.002 9.851-4.401 9.854-9.842.001-2.635-1.026-5.112-2.893-6.982C16.368 1.912 13.89 .882 11.258.882 5.823.882 1.406 5.299 1.402 10.74c-.001 1.542.413 3.05 1.2 4.398l-.998 3.645 3.734-.979zm11.237-7.652c-.3-.15-1.774-.875-2.049-.976-.275-.1-.475-.15-.675.15-.2.3-.775.976-.95 1.176-.175.2-.35.225-.65.075-.301-.15-1.267-.467-2.413-1.488-.892-.796-1.493-1.78-1.668-2.08-.175-.3-.018-.462.13-.61.135-.133.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.52-.172-.007-.368-.009-.567-.009-.2 0-.525.075-.8.375-.275.3-1.05 1.025-1.05 2.5s1.075 2.9 1.225 3.1c.15.2 2.11 3.224 5.112 4.521.714.309 1.272.494 1.707.633.718.228 1.37.196 1.885.119.574-.085 1.774-.725 2.024-1.425.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z" />
+        </svg>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       BOTÃO FLUTUANTE DE WHATSAPP (DESIGN HARMONIOSO)
+       ========================================================================== -->
+  <a id="floatingWaBtn"
+    href="https://wa.me/595992135077?text=Hola,%20Dr.%20Matheus!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20atenci%C3%B3n%20m%C3%A9dica%20en%20Paraguay."
+    target="_blank" rel="noopener noreferrer" class="whatsapp-float-btn" aria-label="WhatsApp Dr. Matheus Macedo"
+    title="Fale no WhatsApp">
+    <span class="whatsapp-float-pulse"></span>
+    <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.432.002 9.851-4.401 9.854-9.842.001-2.635-1.026-5.112-2.893-6.982C16.368 1.912 13.89 .882 11.258.882 5.823.882 1.406 5.299 1.402 10.74c-.001 1.542.413 3.05 1.2 4.398l-.998 3.645 3.734-.979zm11.237-7.652c-.3-.15-1.774-.875-2.049-.976-.275-.1-.475-.15-.675.15-.2.3-.775.976-.95 1.176-.175.2-.35.225-.65.075-.301-.15-1.267-.467-2.413-1.488-.892-.796-1.493-1.78-1.668-2.08-.175-.3-.018-.462.13-.61.135-.133.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.52-.172-.007-.368-.009-.567-.009-.2 0-.525.075-.8.375-.275.3-1.05 1.025-1.05 2.5s1.075 2.9 1.225 3.1c.15.2 2.11 3.224 5.112 4.521.714.309 1.272.494 1.707.633.718.228 1.37.196 1.885.119.574-.085 1.774-.725 2.024-1.425.25-.7.25-1.3.175-1.425-.075-.125-.275-.2-.575-.35z" />
+    </svg>
+  </a>
+
+  <!-- ==========================================================================
+       MODAL DE POLÍTICA DE PRIVACIDADE E DADOS (LEI 7593/2025)
+       ========================================================================== -->
+  <div class="modal-overlay" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="closePrivacyModal" aria-label="Cerrar">&times;</button>
+      <h3 class="modal-title" id="modalTitle" data-i18n="privacy_title">Política de Privacidad y Protección de Datos
+      </h3>
+      <div class="modal-body" data-i18n="privacy_body">
+        <p><strong>Responsable del Tratamiento:</strong> Dr. Matheus Macedo y su equipo de atención clínica.</p>
+
+        <h4>1. Principio de Minimización y Confidencialidad</h4>
+        <p>Este sitio web NO almacena en bases de datos locales ni en cookies ninguna información médica sensible. Las
+          respuestas del cuestionario de triaje se compilan exclusivamente en el momento del envío voluntario mediante
+          un mensaje privado a través de la aplicación WhatsApp, bajo estricto deber de secreto profesional médico.</p>
+
+        <h4>2. Marco Normativo</h4>
+        <p>El tratamiento de los datos aportados por los pacientes se rige por la legislación de la República del
+          Paraguay (Ley 7593/2025 de Protección de Datos Personales y normas sanitarias del Ministerio de Salud Pública
+          y Bienestar Social - MSPBS).</p>
+
+        <h4>3. Destinatarios y Acceso a la Información</h4>
+        <p>Los datos clínicos aportados en el triaje son leídos y gestionados únicamente por el Dr. Matheus Macedo y su
+          asistente de atención directa, con el único y exclusivo propósito de evaluar la viabilidad de la consulta,
+          preparar el protocolo médico y coordinar la logística de atención presencial o remota.</p>
+
+        <h4>4. Derechos del Paciente</h4>
+        <p>El titular podrá solicitar en cualquier momento la rectificación o eliminación de sus mensajes y registros de
+          contacto comunicándose formalmente a través del canal oficial de WhatsApp del consultorio.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       COOKIE CONSENT BANNER (CONSENT MODE V2)
+       ========================================================================== -->
+  <div class="cookie-banner" id="cookieBanner" role="region" aria-label="Consentimiento de Cookies">
+    <div class="cookie-content">
+      <p data-i18n="cookie_text">Utilizamos cookies esenciales y de análisis para garantizar la mejor experiencia de
+        navegación y seguridad en el sitio, en conformidad con los estándares de privacidad.</p>
+      <div class="cookie-actions">
+        <button class="cookie-btn-decline" id="cookieDecline" data-i18n="cookie_decline">Rechazar no esenciales</button>
+        <button class="cookie-btn-accept" id="cookieAccept" data-i18n="cookie_accept">Aceptar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script Principal -->
+  <script src="app.js"></script>
+</body>
+
+</html>
