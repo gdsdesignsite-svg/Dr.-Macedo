@@ -67,8 +67,8 @@ const TRANSLATIONS = {
     
     // Hero
     hero_badge: 'Atención exclusiva en Paraguay',
-    hero_title: 'Medicina de alto rendimiento y control de peso, con <em>acompañamiento médico real</em>.',
-    hero_subtitle: 'Evaluación minuciosa, exámenes, protocolo individual y control mensual con el Dr. Matheus Macedo. Consulta online o atención personalizada en su domicilio.',
+    hero_title: 'Salud, adelgazamiento,<br>rendimiento y<br><em>estética facial</em>.',
+    hero_subtitle: 'Cuidado médico personalizado, con<br>acompañamiento humanizado.',
     hero_btn_online: 'Agendar Consulta Online',
     hero_btn_home: 'Hablar por WhatsApp',
     trust_lang: 'Atención en Español y Portugués',
@@ -118,11 +118,11 @@ const TRANSLATIONS = {
     // About
     about_tag: 'Quién Cuida de Usted',
     about_title: 'Dr. Matheus Macedo',
-    about_quote: '"Me dedico a guiar a cada paciente hacia su mejor versión, uniendo rigor científico, salud y alto rendimiento."',
-    about_text: 'Médico enfocado en longevidad saludable, regulación metabólica y optimización del rendimiento físico y mental. Su metodología prioriza decisiones fundamentadas en exámenes, con un trato cercano y adaptado a la rutina del paciente.',
-    about_c1: 'Atención médica en Paraguay (exclusiva)',
-    about_c2: 'Enfoque preventivo y medicina de precisión',
-    about_c3: 'Protocolos individuales sin recetas genéricas',
+    about_quote: '"Mi compromiso es ofrecer una medicina que respeta la individualidad, valora la ciencia y pone al paciente en el centro de cada decisión."',
+    about_text: 'Médico comprometido con una práctica rigurosa, que une conocimiento científico, escucha atenta y acompañamiento cercano. Cada paciente es recibido en su singularidad, con conductas definidas a partir de sus necesidades y de una evaluación médica responsable.',
+    about_c1: 'Evaluación médica rigurosa',
+    about_c2: 'Atención humanizada e individualizada',
+    about_c3: 'Decisiones fundamentadas en evidencias científicas',
     
     // Funnel Side
     funnel_tag: 'Triaje & Agendamiento',
@@ -189,8 +189,8 @@ const TRANSLATIONS = {
     
     // Hero
     hero_badge: 'Atendimento exclusivo no Paraguai',
-    hero_title: 'Medicina de alta performance e controle de peso, com <em>acompanhamento médico de verdade</em>.',
-    hero_subtitle: 'Exames minuciosos, protocolo individual e retorno mensal com o Dr. Matheus Macedo. Consulta online ou atendimento no conforto da sua casa.',
+    hero_title: 'Saúde, emagrecimento,<br>performance e<br><em>estética facial</em>.',
+    hero_subtitle: 'Cuidado médico personalizado, com<br>acompanhamento humanizado.',
     hero_btn_online: 'Agendar Consulta Online',
     hero_btn_home: 'Falar no WhatsApp',
     trust_lang: 'Atendimento em Espanhol e Português',
@@ -199,7 +199,7 @@ const TRANSLATIONS = {
     
     // Services
     services_tag: 'Modalidades de Consulta',
-    services_title: 'Atendimento Médico Sob Medida',
+    services_title: 'Atendimento Médico Personalizado',
     services_desc: 'Sem consultório fixo: o médico vai até você com máxima privacidade ou atende via videochamada segura.',
     srv_online_title: 'Consulta Online (Telemedicina)',
     srv_online_desc: 'Atendimento por videochamada para pacientes que se encontram no Paraguai.',
@@ -230,7 +230,7 @@ const TRANSLATIONS = {
     proc_tag: 'Tratamentos Clínicos',
     proc_title: 'Procedimentos Médicos',
     proc_desc: 'Realizados exclusivamente após avaliação médica prévia para garantir naturalidade e segurança.',
-    proc1_title: 'Reposição e Injetáveis de Vitaminas',
+    proc1_title: 'Reposição de vitaminas injetáveis',
     proc1_desc: 'Aplicação médica individualizada de micronutrientes (como Vitamina B12, ferro e outros compostos) para otimização da saúde, disposição e correção de carências nutricionais.',
     proc2_title: 'Soroterapia Específica',
     proc2_desc: 'Reposição intravenosa de vitaminas, minerais e hidratação sob medida conforme deficiências laboratoriais.',
@@ -240,11 +240,11 @@ const TRANSLATIONS = {
     // About
     about_tag: 'Quem Cuida de Você',
     about_title: 'Dr. Matheus Macedo',
-    about_quote: '"Dedico-me a conduzir cada paciente rumo à sua melhor versão, unindo saúde, equilíbrio e alta performance."',
-    about_text: 'Médico focado em longevidade saudável, regulação metabólica e otimização da performance humana. Sua prática baseia-se em decisões embasadas em exames, com atenção próxima e alinhada à rotina de cada paciente.',
-    about_c1: 'Atendimento médico no Paraguai (exclusivo)',
-    about_c2: 'Foco preventivo e medicina individualizada',
-    about_c3: 'Protocolos únicos sem fórmulas prontas',
+    about_quote: '“Meu compromisso é oferecer uma medicina que respeita a individualidade, valoriza a ciência e coloca o paciente no centro de cada decisão.”',
+    about_text: 'Médico comprometido com uma prática criteriosa, que une conhecimento científico, escuta atenta e acompanhamento próximo. Cada paciente é acolhido em sua singularidade, com condutas definidas a partir de suas necessidades e de uma avaliação médica responsável.',
+    about_c1: 'Avaliação médica criteriosa',
+    about_c2: 'Atendimento humanizado e individualizado',
+    about_c3: 'Decisões fundamentadas em evidências científicas',
     
     // Funnel Side
     funnel_tag: 'Triagem & Agendamento',
@@ -306,7 +306,7 @@ const TRANSLATIONS = {
 Object.assign(TRANSLATIONS.es, {
   page_title: 'Dr. Matheus Macedo | Medicina de Alto Rendimiento y Control de Peso en Paraguay',
   page_desc: 'Consulta médica online y atención a domicilio en Ciudad del Este.',
-  brand_sub: 'Medicina de Rendimiento',
+  brand_sub: 'Registro Nº 45486',
   hero_card_sub: 'Medicina y Rendimiento Humano',
   stat_exp_num: '+8 Años',
   srv_online_tag: 'Videollamada Google Meet',
@@ -361,7 +361,7 @@ Object.assign(TRANSLATIONS.es, {
   faq3_q: '¿Qué debo preparar para la consulta a domicilio?',
   faq3_a: 'Un ambiente iluminado, tranquilo y con privacidad en su residencia. El médico lleva el equipo clínico necesario. Tenga a mano sus últimos exámenes si dispone de ellos.',
   faq4_q: '¿Cómo se realiza el pago de la consulta y procedimientos?',
-  faq4_a: 'Aceptamos pagos en Guaraníes (Gs.), Reales (R$) y Dólares (USD) mediante transferencia bancaria, Tigo Money, efectivo y tarjetas. La tarifa mostrada en el triaje ya incluye la consulta y el traslado en Ciudad del Este.',
+  faq4_a: 'Aceptamos pagos en efectivo en Guaraníes (Gs.), Reales (R$) y Dólares (USD); por transferencia bancaria en Guaraníes y Reales; Pix; y tarjeta de crédito. La tarifa mostrada en el triaje ya incluye la consulta y la tasa de traslado hasta su ciudad. Los valores en otras monedas como el Real y el Dólar están sujetos a la cotización del día.',
   faq5_q: '¿Quién lee mis datos de salud enviados en el formulario?',
   faq5_a: 'Sus datos no se guardan en el sitio web ni en servidores externos. La información se envía únicamente al WhatsApp oficial del Dr. Matheus Macedo, donde la reciben él y su asistente de atención, ambos bajo estricto deber de confidencialidad y secreto médico profesional (Ley 7593/2025 de Paraguay).',
   faq6_q: '¿Cómo funciona el acompañamiento y retorno mensual?',
@@ -407,7 +407,7 @@ Object.assign(TRANSLATIONS.es, {
 Object.assign(TRANSLATIONS.pt, {
   page_title: 'Dr. Matheus Macedo | Medicina de Alta Performance e Controle de Peso no Paraguai',
   page_desc: 'Consulta médica online e atendimento a domicílio em Ciudad del Este.',
-  brand_sub: 'Medicina de Performance',
+  brand_sub: 'Registro Nº 45486',
   hero_card_sub: 'Medicina & Performance Humana',
   stat_exp_num: '+8 Anos',
   srv_online_tag: 'Videochamada Google Meet',
@@ -462,7 +462,7 @@ Object.assign(TRANSLATIONS.pt, {
   faq3_q: 'O que preciso preparar para a consulta a domicílio?',
   faq3_a: 'Um ambiente iluminado, tranquilo e com privacidade na sua casa. O médico leva o equipamento clínico necessário. Tenha em mãos seus últimos exames, se tiver.',
   faq4_q: 'Como é feito o pagamento da consulta e dos procedimentos?',
-  faq4_a: 'Aceitamos pagamentos em Guaranis (Gs.), Reais (R$) e Dólares (USD) por transferência bancária, Pix, Tigo Money, dinheiro e cartão. O valor mostrado na triagem já inclui a consulta e o deslocamento em Ciudad del Este.',
+  faq4_a: 'Aceitamos pagamentos em efetivo ou Guaranis (Gs.), Real (R$), Dólar (USD); por transferência bancária em Guarani e Real; Pix; e cartão de crédito. O valor mostrado na triagem já inclui a consulta e a taxa de deslocamento até a sua cidade. Valores em outras moedas como o Real e Dólar estão sujeitos à cotação do dia.',
   faq5_q: 'Quem lê os dados de saúde que envio no formulário?',
   faq5_a: 'Seus dados não são salvos no site nem em servidores externos. As informações são enviadas somente ao WhatsApp oficial do Dr. Matheus Macedo, onde são lidas por ele e pela assistente de atendimento, ambos sob dever de confidencialidade e sigilo médico (Lei 7593/2025 do Paraguai).',
   faq6_q: 'Como funciona o acompanhamento e o retorno mensal?',
@@ -544,6 +544,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initModals();
   initCookies();
   initMobileMenu();
+  initMobileBottomBarScroll();
 });
 
 // ==========================================
@@ -1179,4 +1180,26 @@ function initBotoxCarousel() {
     }, 40);
   }, { passive: true });
 }
+
+// ==========================================
+// 13. BARRA INFERIOR MOBILE FIXA (EXIBIÇÃO APENAS AO ROLAR)
+// ==========================================
+function initMobileBottomBarScroll() {
+  const bottomBar = document.querySelector('.mobile-bottom-bar');
+  if (!bottomBar) return;
+
+  const SCROLL_THRESHOLD = 160; // Pixels de rolagem para acionar a barra
+
+  function handleScroll() {
+    if (window.scrollY > SCROLL_THRESHOLD) {
+      bottomBar.classList.add('is-visible');
+    } else {
+      bottomBar.classList.remove('is-visible');
+    }
+  }
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  handleScroll();
+}
+
 
