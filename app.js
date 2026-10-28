@@ -1138,7 +1138,7 @@ function initCookies() {
   if (!banner) return;
   
   const consent = localStorage.getItem('dr_matheus_cookie_consent');
-  if (!consent) {
+  if (!consent && !window.location.search.includes('nocookies')) {
     banner.style.display = 'block';
   }
   
