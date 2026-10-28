@@ -68,11 +68,11 @@ const TRANSLATIONS = {
     // Hero
     hero_badge: 'Atención exclusiva en Paraguay',
     hero_title: 'Salud, adelgazamiento,<br>rendimiento y<br><em>estética facial</em>.',
-    hero_subtitle: 'Cuidado médico personalizado, con<br>acompañamiento humanizado.',
+    hero_subtitle: 'Cuidado médico personalizado,<br>con acompañamiento humanizado.',
     hero_btn_online: 'Agendar Consulta Online',
     hero_btn_home: 'Hablar por WhatsApp',
     trust_lang: 'Atención en Español y Portugués',
-    trust_coverage: 'Atención a Domicilio en Ciudad del Este',
+    trust_coverage: '<span class="desktop-only-inline">Atención a Domicilio en Ciudad del Este</span><span class="mobile-only-inline">Atención a Domicilio y Online en Ciudad del Este</span>',
     trust_agenda: 'Agenda Abierta',
     
     // Services
@@ -123,6 +123,27 @@ const TRANSLATIONS = {
     about_c1: 'Evaluación médica rigurosa',
     about_c2: 'Atención humanizada e individualizada',
     about_c3: 'Decisiones fundamentadas en evidencias científicas',
+    
+    // Testimonials
+    nav_testimonials: 'Resultados',
+    test_tag: 'Historias Reales',
+    test_title: 'Resultados de Quienes Vivieron la Transformación',
+    test_desc: 'Relatos espontáneos de pacientes que transformaron su salud, disposición y autoestima con el acompañamiento médico personalizado del Dr. Matheus Macêdo.',
+    test_ana_tag: '3 Meses de Protocolo',
+    test_ana_text: '“¡Estoy muy feliz con los resultados de estos tres meses de acompañamiento con el Dr. Matheus Macêdo! ❤️ El protocolo personalizado, las dietas y el acompañamiento profesional han marcado la diferencia en mi proceso de adelgazamiento. El uso de la tirzepatida, siempre bajo su orientación, forma parte de esta jornada. ¡Muy feliz con mi evolución y motivada para continuar! 🥰✨”',
+    test_verified_ana: 'Paciente Verificada • Tirzepatida',
+    test_telma_tag: '4 Meses de Protocolo',
+    test_telma_text: '“Mañana se cumplen cuatro meses con el protocolo. ¡Estoy muy feliz con los resultados de estos cuatro meses de acompañamiento con el Dr. Matheus Macêdo! El protocolo que preparó para mí, las dietas y el acompañamiento profesional han marcado la diferencia en mi proceso de adelgazamiento. El uso de la tirzepatida, bajo su orientación, forma parte de esta jornada. ¡Soy muy agradecida al Dr. por el cuidado, respondiendo siempre a mis dudas y por mi evolución y motivada para continuar! Gracias Dr. Matheus.”',
+    test_verified_telma: 'Paciente Verificada • Tirzepatida',
+    test_mauro_tag: '-13 kg • Talla 52 → 46',
+    test_m1: 'Eliminados',
+    test_m2: 'Talla',
+    test_m3: 'Autoestima',
+    test_mauro_text: '<p class="testimonial-lead"><strong>TESTIMONIO DE GRATITUD AL DR. MATHEUS MACÊDO</strong></p><p>Mi nombre es Mauro, y quiero expresar mi gratitud al Dr. Matheus Macêdo por el excelente acompañamiento en mi proceso de adelgazamiento.</p><p>Inicié mi tratamiento en julio de 2026 y, desde el primer momento, recibí una atención marcada por el profesionalismo, la competencia y la atención humana. Con una evaluación cuidadosa, la solicitud de los análisis necesarios y la elaboración de un protocolo y una dieta individualizados, condujo cada etapa con responsabilidad y dedicación.</p><p>Los resultados han sido muy significativos: ya eliminé 13 kg y pasé de la talla 52 a la 46. Sin embargo, la mayor conquista va mucho más allá de los números y la ropa. He experimentado más disposición, mejora en la autoestima, bienestar y, sobre todo, una percepción mucho más positiva de mi calidad de vida.</p><p>Agradezco a Dios por esta experiencia y por la oportunidad de contar con un profesional que une conocimiento, cuidado y humanidad. Mi reconocimiento al Dr. Matheus no se debe solo a los resultados alcanzados, sino también a la forma atenta y comprometida con la que acompaña todo el proceso.</p><p>¡Recomiendo el trabajo del Dr. Matheus Macêdo a todos los que buscan cuidar su salud con responsabilidad, acompañamiento profesional y excelencia! ¡Mi gratitud por ser parte de esta transformación que ha producido resultados tan positivos en mi vida!</p>',
+    test_verified_mauro: 'Paciente Verificado • Transformación Metabólica',
+    test_cta_title: '¿Listo para iniciar su propia transformación?',
+    test_cta_desc: 'Agende su consulta y reciba un plan médico individualizado, con soporte continuo del Dr. Matheus Macêdo.',
+    test_cta_btn: 'Agendar Mi Consulta',
     
     // Funnel Side
     funnel_tag: 'Triaje & Agendamiento',
@@ -190,11 +211,11 @@ const TRANSLATIONS = {
     // Hero
     hero_badge: 'Atendimento exclusivo no Paraguai',
     hero_title: 'Saúde, emagrecimento,<br>performance e<br><em>estética facial</em>.',
-    hero_subtitle: 'Cuidado médico personalizado, com<br>acompanhamento humanizado.',
+    hero_subtitle: 'Cuidado médico personalizado,<br>com acompanhamento humanizado.',
     hero_btn_online: 'Agendar Consulta Online',
     hero_btn_home: 'Falar no WhatsApp',
     trust_lang: 'Atendimento em Espanhol e Português',
-    trust_coverage: 'Atendimento a Domicílio em Ciudad del Este',
+    trust_coverage: '<span class="desktop-only-inline">Atendimento a Domicílio em Ciudad del Este</span><span class="mobile-only-inline">Atendimento a Domicílio e Online em Ciudad del Este</span>',
     trust_agenda: 'Agenda Aberta',
     
     // Services
@@ -245,6 +266,27 @@ const TRANSLATIONS = {
     about_c1: 'Avaliação médica criteriosa',
     about_c2: 'Atendimento humanizado e individualizado',
     about_c3: 'Decisões fundamentadas em evidências científicas',
+    
+    // Testimonials
+    nav_testimonials: 'Resultados',
+    test_tag: 'Histórias Reais',
+    test_title: 'Resultados de Quem Viveu a Transformação',
+    test_desc: 'Relatos espontâneos de pacientes que transformaram sua saúde, disposição e autoestima com o acompanhamento médico personalizado do Dr. Matheus Macêdo.',
+    test_ana_tag: '3 Meses de Protocolo',
+    test_ana_text: '“Estou muito feliz com os resultados desses três meses de acompanhamento com o Dr. Matheus Macêdo! ❤️ O protocolo personalizado, as dietas e o acompanhamento profissional têm feito a diferença no meu processo de emagrecimento. O uso da tirzepatida, sempre sob sua orientação, faz parte dessa jornada. Muito feliz com minha evolução e motivada para continuar! 🥰✨”',
+    test_verified_ana: 'Paciente Verificada • Tirzepatida',
+    test_telma_tag: '4 Meses de Protocolo',
+    test_telma_text: '“Amanhã faz quatro meses com o protocolo. Estou muito feliz com os resultados destes quatro meses de acompanhamento com o Dr. Matheus Macêdo! O protocolo que ele fez pra mim, as dietas e o acompanhamento profissional têm feito a diferença no meu processo de emagrecimento. O uso da tirzepatida, sob sua orientação, faz parte dessa jornada. Sou muito grata ao Dr. pelo cuidado, respondendo sempre as minhas dúvidas e pela evolução e motivada para continuar! Obrigada Dr. Matheus.”',
+    test_verified_telma: 'Paciente Verificada • Tirzepatida',
+    test_mauro_tag: '-13 kg • Manequim 52 → 46',
+    test_m1: 'Eliminados',
+    test_m2: 'Manequim',
+    test_m3: 'Autoestima',
+    test_mauro_text: '<p class="testimonial-lead"><strong>DEPOIMENTO DE GRATIDÃO AO DR. MATHEUS MACÊDO</strong></p><p>Meu nome é Mauro, e quero expressar minha gratidão ao Dr. Matheus Macêdo pelo excelente acompanhamento no meu processo de emagrecimento.</p><p>Iniciei meu tratamento em julho de 2026 e, desde o primeiro momento, recebi um atendimento marcado pelo profissionalismo, pela competência e pela atenção humana. Com uma avaliação cuidadosa, a solicitação dos exames necessários e a elaboração de um protocolo e de uma dieta individualizados, ele conduziu cada etapa com responsabilidade e dedicação.</p><p>Os resultados têm sido muito significativos: já eliminei 13 kg e passei do manequim 52 para o 46. Entretanto, a maior conquista vai muito além dos números e das roupas. Tenho experimentado mais disposição, melhora na autoestima, bem-estar e, sobretudo, uma percepção muito mais positiva da minha qualidade de vida.</p><p>Sou grato a Deus por essa experiência e pela oportunidade de contar com um profissional que une conhecimento, cuidado e humanidade. Meu reconhecimento ao Dr. Matheus não se deve apenas aos resultados alcançados, mas também à forma atenciosa e comprometida com que acompanha todo o processo.</p><p>Recomendo o trabalho do Dr. Matheus Macêdo a todos que buscam cuidar da saúde com responsabilidade, acompanhamento profissional e excelência. Minha gratidão por fazer parte dessa transformação que tem produzido resultados tão positivos na minha vida!</p>',
+    test_verified_mauro: 'Paciente Verificado • Transformação Metabólica',
+    test_cta_title: 'Pronto para iniciar sua própria transformação?',
+    test_cta_desc: 'Agende sua consulta e receba um plano médico individualizado, com suporte contínuo do Dr. Matheus Macêdo.',
+    test_cta_btn: 'Agendar Minha Consulta',
     
     // Funnel Side
     funnel_tag: 'Triagem & Agendamento',
@@ -373,7 +415,7 @@ Object.assign(TRANSLATIONS.es, {
   foot_l3: 'Triaje y Agendamiento',
   foot_l4: 'Política de Privacidad y Datos',
   foot_reg: 'Dr. Matheus Macedo | Registro Profesional Ministerio de Salud Pública y Bienestar Social (MSPBS)',
-  foot_dev: 'Desarrollado con alto estándar estético y funcional',
+  foot_dev: 'Sitio desarrollado por <a href="https://gdsdesign.site" target="_blank" rel="noopener noreferrer">GDS Design</a>',
   stat_reg_status: 'Habilitado',
   proc3_badge: 'Protocolo individual',
   foot_inst_title: 'Institucional',
@@ -474,7 +516,7 @@ Object.assign(TRANSLATIONS.pt, {
   foot_l3: 'Triagem e Agendamento',
   foot_l4: 'Política de Privacidade e Dados',
   foot_reg: 'Dr. Matheus Macedo | Registro Profissional no Ministério da Saúde Pública e Bem-Estar Social do Paraguai (MSPBS)',
-  foot_dev: 'Desenvolvido com alto padrão estético e funcional',
+  foot_dev: 'Site desenvolvido por <a href="https://gdsdesign.site" target="_blank" rel="noopener noreferrer">GDS Design</a>',
   stat_reg_status: 'Habilitado',
   proc3_badge: 'Protocolo individual',
   foot_inst_title: 'Institucional',
@@ -670,10 +712,12 @@ window.selectServiceAndScroll = function(modality) {
   
   updateModalitySelectionUI();
   
-  // Rola até o funil
-  const funnelSec = document.getElementById('triagem');
-  if (funnelSec) {
-    funnelSec.scrollIntoView({ behavior: 'smooth' });
+  // Rola até o funil (no mobile rola direto ao card interativo para enquadrar 100% no viewport)
+  const funnelTarget = (window.innerWidth <= 768)
+    ? (document.querySelector('.funnel-card') || document.getElementById('triagem'))
+    : document.getElementById('triagem');
+  if (funnelTarget) {
+    funnelTarget.scrollIntoView({ behavior: 'smooth' });
   }
   
   currentStep = 1;
@@ -1012,10 +1056,13 @@ ${funnelData.modality === 'homecare' ? `• Dirección en Ciudad del Este: ${fun
 }
 
 // ==========================================
-// 8. FAQ ACCORDION INTERATIVO
+// 8. FAQ ACCORDION INTERATIVO (SEM LAYOUT THRASHING)
 // ==========================================
 function initFaqAccordion() {
-  document.querySelectorAll('.faq-item').forEach(item => {
+  const faqItems = document.querySelectorAll('.faq-item');
+  if (!faqItems.length) return;
+
+  faqItems.forEach(item => {
     const question = item.querySelector('.faq-question');
     const answer = item.querySelector('.faq-answer');
     
@@ -1023,18 +1070,27 @@ function initFaqAccordion() {
       question.addEventListener('click', () => {
         const isActive = item.classList.contains('active');
         
-        // Fecha outros itens
-        document.querySelectorAll('.faq-item').forEach(other => {
-          other.classList.remove('active');
-          const otherAns = other.querySelector('.faq-answer');
-          if (otherAns) otherAns.style.maxHeight = null;
-        });
+        // FASE 1: LEITURA (Mede scrollHeight antes de qualquer mutação no DOM)
+        const targetHeight = !isActive ? answer.scrollHeight : 0;
         
-        // Abre o clicado se não estava aberto
-        if (!isActive) {
-          item.classList.add('active');
-          answer.style.maxHeight = answer.scrollHeight + 'px';
-        }
+        // FASE 2: ESCRITA (Agrupa mutações de classes e estilos via requestAnimationFrame)
+        window.requestAnimationFrame(() => {
+          faqItems.forEach(other => {
+            if (other !== item && other.classList.contains('active')) {
+              other.classList.remove('active');
+              const otherAns = other.querySelector('.faq-answer');
+              if (otherAns) otherAns.style.maxHeight = null;
+            }
+          });
+          
+          if (!isActive) {
+            item.classList.add('active');
+            answer.style.maxHeight = `${targetHeight}px`;
+          } else {
+            item.classList.remove('active');
+            answer.style.maxHeight = null;
+          }
+        });
       });
     }
   });
@@ -1123,7 +1179,7 @@ function initMobileMenu() {
 }
 
 // ==========================================
-// 12. CARROSSEL DE BOTOX (DESKTOP & MOBILE SWIPE)
+// 12. CARROSSEL DE BOTOX (DESKTOP & MOBILE SWIPE - SEM LAYOUT THRASHING)
 // ==========================================
 function initBotoxCarousel() {
   const carousel = document.getElementById('botoxCarousel');
@@ -1135,24 +1191,26 @@ function initBotoxCarousel() {
   const cards = carousel.querySelectorAll('.botox-card');
   const dots = dotsContainer ? dotsContainer.querySelectorAll('.botox-dot') : [];
 
-  function getCardStep() {
+  // FASE 1: LEITURA ISOLADA (Cache da medição geométrica para evitar reflow durante rolagem)
+  let cachedStep = cards.length > 0 ? (cards[0].offsetWidth + 24) : 300;
+
+  // Atualiza medição apenas em resize com leitura isolada
+  window.addEventListener('resize', () => {
     if (cards.length > 0) {
-      // largura do card + gap
-      return cards[0].offsetWidth + 24;
+      cachedStep = cards[0].offsetWidth + 24;
     }
-    return 300;
-  }
+  }, { passive: true });
 
   // Setas Desktop
   if (prevBtn) {
     prevBtn.addEventListener('click', () => {
-      carousel.scrollBy({ left: -getCardStep(), behavior: 'smooth' });
+      carousel.scrollBy({ left: -cachedStep, behavior: 'smooth' });
     });
   }
 
   if (nextBtn) {
     nextBtn.addEventListener('click', () => {
-      carousel.scrollBy({ left: getCardStep(), behavior: 'smooth' });
+      carousel.scrollBy({ left: cachedStep, behavior: 'smooth' });
     });
   }
 
@@ -1165,41 +1223,58 @@ function initBotoxCarousel() {
     });
   });
 
-  // Atualização em tempo real do dot ativo no swipe e scroll
-  let scrollTimeout;
+  // Atualização em tempo real do dot ativo via requestAnimationFrame (desacopla leitura de escrita)
+  let scrollTicking = false;
   carousel.addEventListener('scroll', () => {
-    clearTimeout(scrollTimeout);
-    scrollTimeout = setTimeout(() => {
-      const scrollPos = carousel.scrollLeft;
-      const step = getCardStep();
-      const activeIdx = Math.round(scrollPos / step);
+    if (!scrollTicking) {
+      window.requestAnimationFrame(() => {
+        // LEITURA
+        const scrollPos = carousel.scrollLeft;
+        const activeIdx = Math.round(scrollPos / cachedStep);
+        const clampedIdx = Math.min(Math.max(activeIdx, 0), cards.length - 1);
 
-      dots.forEach((dot, idx) => {
-        dot.classList.toggle('active', idx === Math.min(Math.max(activeIdx, 0), cards.length - 1));
+        // ESCRITA (Mutações de classe em batch)
+        dots.forEach((dot, idx) => {
+          dot.classList.toggle('active', idx === clampedIdx);
+        });
+        scrollTicking = false;
       });
-    }, 40);
+      scrollTicking = true;
+    }
   }, { passive: true });
 }
 
 // ==========================================
-// 13. BARRA INFERIOR MOBILE FIXA (EXIBIÇÃO APENAS AO ROLAR)
+// 13. BARRA INFERIOR MOBILE FIXA (THROTTLED COM rAF)
 // ==========================================
 function initMobileBottomBarScroll() {
   const bottomBar = document.querySelector('.mobile-bottom-bar');
   if (!bottomBar) return;
 
   const SCROLL_THRESHOLD = 160; // Pixels de rolagem para acionar a barra
+  let isBarVisible = false;
+  let ticking = false;
 
-  function handleScroll() {
-    if (window.scrollY > SCROLL_THRESHOLD) {
-      bottomBar.classList.add('is-visible');
-    } else {
-      bottomBar.classList.remove('is-visible');
+  function updateBar() {
+    // LEITURA
+    const shouldShow = window.scrollY > SCROLL_THRESHOLD;
+    if (shouldShow !== isBarVisible) {
+      // ESCRITA apenas quando houver alteração de estado
+      isBarVisible = shouldShow;
+      bottomBar.classList.toggle('is-visible', isBarVisible);
     }
+    ticking = false;
   }
 
-  window.addEventListener('scroll', handleScroll, { passive: true });
-  handleScroll();
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(updateBar);
+      ticking = true;
+    }
+  }, { passive: true });
+
+  // Estado inicial
+  updateBar();
 }
 
 
