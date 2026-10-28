@@ -2962,7 +2962,7 @@ textarea.form-control {
     position: relative;
     height: auto;
     min-height: max(560px, 100svh);
-    padding: 72px 0 20px 0;
+    padding: clamp(68px, 9.5vh, 76px) 0 20px 0;
     overflow: hidden;
     background: #011223;
     isolation: isolate;
@@ -2982,21 +2982,23 @@ textarea.form-control {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 74% center;
+    object-position: 80% center;
     display: block;
     transform: none;
   }
 
-  /* Overlay com degradê suave apenas sob o texto — 100% transparente sobre o rosto do médico */
+  /* Overlay com degradê suave apenas sob o texto — 100% transparente a partir de 52% para não cobrir o olho do homem */
   #hero .hero-banner-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(
       to right,
       #011223 0%,
-      rgba(1, 18, 35, 0.98) 40%,
-      rgba(1, 18, 35, 0.70) 55%,
-      rgba(1, 18, 35, 0) 72%,
+      #011223 26%,
+      rgba(1, 18, 35, 0.96) 36%,
+      rgba(1, 18, 35, 0.50) 44%,
+      rgba(1, 18, 35, 0.10) 48%,
+      rgba(1, 18, 35, 0) 52%,
       transparent 100%
     );
     pointer-events: none;
@@ -3008,7 +3010,7 @@ textarea.form-control {
     width: 100%;
     max-width: none;
     min-height: auto;
-    padding: 8px 16px 16px 20px;
+    padding: clamp(6px, 1.2vh, 12px) clamp(10px, 2.5vw, 16px) 16px clamp(14px, 4vw, 22px);
     margin: 0;
     box-sizing: border-box;
     display: flex;
@@ -3016,23 +3018,26 @@ textarea.form-control {
     justify-content: flex-start;
   }
 
+  /* Frame mestre unificado: todo o bloco (texto + botões) escala proporcionalmente ao celular */
   #hero .hero-banner-content {
     width: 100%;
-    max-width: 220px;
+    max-width: clamp(190px, 52vw, 290px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
     margin-top: 0;
+    box-sizing: border-box;
   }
 
   #hero .hero-badge-country {
-    height: 30px;
+    height: clamp(27px, 3.8vh, 31px);
+    width: fit-content;
     max-width: 100%;
-    padding: 0 12px;
-    margin: 0 0 16px 0;
+    padding: 0 clamp(8px, 2.5vw, 12px);
+    margin: 0 0 clamp(10px, 1.8vh, 16px) 0;
     gap: 6px;
-    font-size: 11px;
+    font-size: clamp(10.5px, 2.8vw, 11.5px);
     line-height: 1;
     letter-spacing: 0;
     white-space: nowrap;
@@ -3047,9 +3052,9 @@ textarea.form-control {
 
   #hero .hero-title {
     width: 100%;
-    max-width: 220px;
-    margin: 0 0 16px 0;
-    font-size: clamp(25px, 6.8vw, 29px);
+    max-width: 100%;
+    margin: 0 0 clamp(10px, 1.8vh, 16px) 0;
+    font-size: clamp(21px, 5.8vw, 29px);
     line-height: 1.22;
     letter-spacing: -0.3px;
     font-weight: 600;
@@ -3073,9 +3078,9 @@ textarea.form-control {
 
   #hero .hero-subtitle {
     width: 100%;
-    max-width: 215px;
-    margin: 0 0 16px 0;
-    font-size: clamp(12px, 3.4vw, 13px);
+    max-width: 100%;
+    margin: 0 0 clamp(10px, 1.8vh, 16px) 0;
+    font-size: clamp(11.5px, 3.1vw, 13px);
     line-height: 1.46;
     font-weight: 400;
     text-align: left;
@@ -3086,37 +3091,37 @@ textarea.form-control {
   #hero .hero-subtitle::after {
     content: '';
     display: block;
-    width: 32px;
+    width: clamp(26px, 7vw, 32px);
     height: 2px;
     background-color: #C7B39F;
-    margin-top: 14px;
+    margin-top: clamp(8px, 1.4vh, 12px);
     border-radius: 1px;
     opacity: 0.85;
   }
 
   #hero .hero-cta-group {
     width: 100%;
-    max-width: 215px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 9px;
+    gap: clamp(8px, 1.2vh, 10px);
     margin: 0;
   }
 
   #hero .hero-cta-group .btn {
     width: 100%;
     min-width: 0;
-    min-height: 45px;
-    height: 45px;
-    padding: 0 14px;
+    min-height: clamp(42px, 5.2vh, 46px);
+    height: clamp(42px, 5.2vh, 46px);
+    padding: 0 clamp(10px, 3vw, 14px);
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
     border-radius: 8px;
-    font-size: 13px;
+    font-size: clamp(11.5px, 3vw, 13px);
     font-weight: 600;
     line-height: 1.2;
     white-space: nowrap;
@@ -3149,12 +3154,12 @@ textarea.form-control {
   #hero .hero-trust-line {
     display: flex !important;
     flex-direction: column;
-    gap: 7px;
-    margin-top: 14px;
+    gap: clamp(6px, 1vh, 8px);
+    margin-top: clamp(10px, 1.6vh, 14px);
     padding-top: 0;
     border-top: none;
     width: 100%;
-    max-width: 215px;
+    max-width: 100%;
     box-sizing: border-box;
   }
 
@@ -3162,14 +3167,15 @@ textarea.form-control {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 7px;
+    gap: clamp(5px, 0.9vh, 7px);
+    width: 100%;
   }
 
   #hero .trust-item {
     display: inline-flex;
     align-items: flex-start;
     gap: 6px;
-    font-size: 10.5px;
+    font-size: clamp(10px, 2.7vw, 11px);
     color: rgba(248, 247, 243, 0.88);
     line-height: 1.35;
     letter-spacing: 0.01em;
@@ -3195,77 +3201,12 @@ textarea.form-control {
 
   #hero .hero-banner-container {
     padding-right: 10px;
-    padding-left: 16px;
-  }
-
-  #hero .hero-banner-content {
-    max-width: 180px;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  #hero .hero-badge-country {
-    font-size: 10px;
-    height: 27px;
-    padding: 0 9px;
-    margin: 0 0 14px 0;
-    align-self: flex-start;
-  }
-
-  #hero .hero-title {
-    max-width: 180px;
-    font-size: 22px;
-    line-height: 1.20;
-    margin: 0 0 12px 0;
-    text-align: left;
-  }
-
-  #hero .hero-subtitle {
-    max-width: 175px;
-    font-size: 11px;
-    line-height: 1.42;
-    margin: 0 0 14px 0;
-    text-align: left;
-  }
-
-  #hero .hero-subtitle::after {
-    width: 28px;
-    margin-top: 10px;
-  }
-
-  #hero .hero-cta-group {
-    max-width: 175px;
-    gap: 8px;
-  }
-
-  #hero .hero-cta-group .btn {
-    min-height: 42px;
-    height: 42px;
-    font-size: 12px;
-    padding: 0 10px;
+    padding-left: 14px;
   }
 
   #hero .hero-banner-img {
-    object-position: 74% center;
+    object-position: 81% center;
     transform: none;
-  }
-
-  #hero .hero-trust-line {
-    max-width: 175px;
-    margin-top: 12px;
-    padding-top: 0;
-    border-top: none;
-    gap: 6px;
-  }
-
-  #hero .trust-item {
-    font-size: 10px;
-    gap: 5px;
-  }
-
-  #hero .trust-item svg {
-    width: 12px;
-    height: 12px;
   }
 
   /* Funil em telas extra-estreitas (<= 375px) */
