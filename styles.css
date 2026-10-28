@@ -2981,6 +2981,7 @@ textarea.form-control {
 
   #hero .hero-banner-img {
     position: absolute;
+    top: auto;
     bottom: 0;
     right: -70px;
     left: auto;
@@ -2990,6 +2991,7 @@ textarea.form-control {
     object-fit: contain;
     object-position: right bottom;
     display: block;
+    transform: translate(1cm, 5cm);
   }
 
   /* Overlay com degradê suave apenas sob o texto — 100% transparente sobre o rosto do médico */
@@ -3251,10 +3253,12 @@ textarea.form-control {
   }
 
   #hero .hero-banner-img {
+    top: auto;
     bottom: 0;
     right: -50px;
     height: 76%;
     max-height: 460px;
+    transform: translate(1cm, 5cm);
   }
 
   #hero .hero-trust-line {
